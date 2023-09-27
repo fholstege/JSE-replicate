@@ -14,12 +14,19 @@ This folder does not contain all the datasets used due to size issues. One can a
 
 * The Waterbirds dataset is made up of the places dataset ([link](http://places.csail.mit.edu)) and Caltech-UCSD Birds-200-2011 (CUB) dataset ([link](https://www.vision.caltech.edu/datasets/cub_200_2011/)). The celebA dataset can be found [here](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), and the multiNLI dataset [here](https://gluebenchmark.com/tasks). 
 * Save the raw datasets in the following folders: 
+
         -  Waterbirds: in 'raw_input', put the birds and segmentations under the respective folders, and the images from the places dataset under the 'water_land' folder
+
         -  CelebA: under the folder 'raw_input' put the images in the 'images' folder
+
         -  multiNLI: under the folder 'raw_input' in the folder put them in 'multinli_bert_features'
+
 * Run respective files in order to create the datasets, and finetune models in order to create the embeddings. 
+
         -  Waterbirds: run create_waterbird_images.py, create_waterbird_embeddings.py, and if desired finetune_waterbirds.py
+
         -  CelebA: run create_waterbird_images.py, create_waterbird_embeddings.py, and if desired finetune_celebA.py
+        
         -  multiNLI: run create_multiNLI_metadata.py, create_multiNLI_data_punctuation, create_multiNLI_embeddings.py, and if desired finetune_multiNLI.py
 
 
