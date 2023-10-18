@@ -1,8 +1,7 @@
 # Removing Spurious Concepts Via Joint Subspace Estimation
 
 
-This folder contains the code that was used for the submission 'Removing Spurious Concepts Via Joint Subspace Estimation' for ICLR 2024. 
-
+This folder contains the code that was used for the paper 'Removing Spurious Concepts Via Joint Subspace Estimation'.
 
 In order to replicate results from the paper, the following steps need to be taken. 
 
