@@ -1,7 +1,7 @@
 # Removing Spurious Concepts Via Joint Subspace Estimation
 
 
-This folder contains the code that was used for the paper 'Removing Spurious Concepts Via Joint Subspace Estimation'.
+This folder contains the code that was used for the paper 'Removing Spurious Concepts Via Joint Subspace Estimation'. The repository is licensed under the terms of the BSD-3 license.
 
 In order to replicate results from the paper, the following steps need to be taken. 
 
